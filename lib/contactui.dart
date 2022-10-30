@@ -23,6 +23,7 @@ class ContactUI extends StatelessWidget {
                 child: Icon(Icons.people,size: 40,color: Colors.white,),
               ),
               title: Text('Person ${index+1}',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+              subtitle: Text('+91 985623781${index}',style: TextStyle(fontSize: 15),),
               trailing: Wrap(
                 children: [
                   Icon(Icons.sms,color: Colors.blue,),
